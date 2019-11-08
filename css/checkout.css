@@ -2,9 +2,8 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Open Sans';
   list-style-type: none;
-  font-size: 18px;
 }
 
 html {
@@ -18,9 +17,13 @@ a {
 
 body {
   background-color: #F5F5F5;
+  font-size: 1em;
 }
-
+main {
+  margin-top: 4em;
+}
 .container {
+  font-size: 1.2em;
   display: flex;
   width: 100%;
   height: 100vh;
@@ -46,6 +49,9 @@ body {
   border: solid #d9d9d9 1px;
 }
 
+.unidad {
+  font-size: 1.2em;
+}
 .producto {
   display: flex;
   justify-content: space-between;
@@ -77,8 +83,10 @@ body {
   padding: 0.50em;
   border-radius: 5px;
   border: none;
+    font-size: 1em;
   color: white;
-  background: #2e8ddb
+  background: #2e8ddb;
+  margin-bottom: 3em;
 }
 
 .datos-de-envio {
@@ -103,4 +111,36 @@ body {
   padding: 2%;
   border: none;
   border-bottom: solid #d9d9d9 1px;
+}
+
+@media (min-width: 768px) {
+
+  .items {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .envio {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .tarjeta {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .carro {
+    width: 40%;
+  }
+
+  .total {
+
+  }
 }

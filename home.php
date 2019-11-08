@@ -28,28 +28,28 @@
       </div>
       <section class="productos">
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
         </article>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
         </article>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
         </article>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
@@ -66,21 +66,21 @@
         </div>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
         </article>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
         </article>
 
         <article class="producto">
-          <a href="productos.php">
+          <a href="producto.php">
             <img src="img/macbook.jpg" alt="Macbook">
             <p>Macbook Infinity 2019</p>
           </a>
@@ -92,7 +92,7 @@
         </article>
       </section>
     </main>
-
-    <?php require_once("partials/nav-menu.php");?>
   </body>
+      <?php require_once("partials/nav-menu.php");?>
+      <?php require_once("partials/footer.php");?>
 </html>
